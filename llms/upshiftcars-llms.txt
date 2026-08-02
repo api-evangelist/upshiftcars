@@ -1,0 +1,29 @@
+<!-- generated: '2026-07-21' | method: generated | source: apis.yml + Wayback Machine snapshot of https://www.upshiftcars.com/ (2026-04-10); live site is captcha-gated (HTTP 202) and publishes no llms.txt -->
+# Upshift
+
+> Upshift (upshiftcars.com) is a San Francisco fractional car subscription service — "a 2-car garage, in your pocket." Members choose 4, 8, or 12 driving days per month and get a premium Toyota hybrid (Corolla or Prius) delivered clean, fueled, insured, and maintained, then picked up when they are done. Plans start at $399/month for 4 days including insurance, delivery, maintenance, and refueling service. Upshift owns and operates its fleet and delivers within its San Francisco service zone, with self-pickup at its garage at 1101 Sutter St.
+
+Upshift is a 500 Global and URBAN-X portfolio company. It publishes no public developer program, API documentation, or machine-readable API surface; the member experience runs through the Upshift mobile apps and go.upshiftcars.com.
+
+## Company
+- [Website](https://upshiftcars.com): Main marketing site (San Francisco fractional car subscriptions).
+- [Plans & Pricing](https://www.upshiftcars.com/subscriptions/): Subscription plans from $399/month for 4 days/month.
+- [FAQ](https://www.upshiftcars.com/faq/): Frequently asked questions and help.
+- [Insurance](https://www.upshiftcars.com/insurance/): Insurance coverage details.
+- [Blog](https://www.upshiftcars.com/blog/): Company blog.
+- [Privacy Policy](https://www.upshiftcars.com/privacy-policy/)
+
+## Apps & Account
+- [Sign up](https://go.upshiftcars.com/users/subscribe/signup_welcome): Member signup.
+- [Log in](https://go.upshiftcars.com/users/log_in): Member login.
+- [iOS app](https://apps.apple.com/us/app/upshift-cars/id1542808275)
+- [Android app](https://play.google.com/store/apps/details?id=com.upshift)
+
+## Social
+- [LinkedIn](https://www.linkedin.com/company/upshift)
+- [Twitter/X](https://twitter.com/upshiftcars)
+- [Instagram](https://www.instagram.com/upshiftcars/)
+- [Facebook](https://www.facebook.com/upshiftcars/)
+
+## API surface
+- None published. No api.*, docs.*, or developer.* subdomains exist, and no OpenAPI, SDKs, webhooks, or developer portal were found.

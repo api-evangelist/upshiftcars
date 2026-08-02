@@ -1,0 +1,35 @@
+generated: '2026-07-21'
+method: probed
+source: live HTTP probes of https://upshiftcars.com
+description: >-
+  Results of probing the /.well-known/ discovery surface for the only host in
+  apis.yml (https://upshiftcars.com — the company publishes no API or docs
+  subdomains; api/docs/developer/developers/status/app.upshiftcars.com have no
+  DNS records). Every path answers HTTP 202 with a SiteGround anti-bot captcha
+  challenge page (meta-refresh to /.well-known/sgcaptcha/), so no real
+  well-known document could be verified. Nothing was saved and no WellKnown
+  pointer is wired — these are recorded statuses, not artifacts.
+hosts:
+  - host: https://upshiftcars.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 202
+        note: SiteGround captcha challenge, not a real security.txt; not saved.
+      - path: /.well-known/openid-configuration
+        status: 202
+        note: SiteGround captcha challenge; not saved.
+      - path: /.well-known/oauth-authorization-server
+        status: 202
+        note: SiteGround captcha challenge; not saved.
+      - path: /.well-known/api-catalog
+        status: 202
+        note: SiteGround captcha challenge; not saved.
+      - path: /.well-known/ai-plugin.json
+        status: 202
+        note: SiteGround captcha challenge; not saved.
+      - path: /robots.txt
+        status: 202
+        note: SiteGround captcha challenge; not saved.
+      - path: /llms.txt
+        status: 202
+        note: SiteGround captcha challenge; no provider llms.txt verified.

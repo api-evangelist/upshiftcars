@@ -1,7 +1,23 @@
 aid: upshiftcars
-name: upshiftcars
-description: upshiftcars is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/upshiftcars.png
+name: Upshift
+description: Upshift is a San Francisco fractional car subscription service — "a 2-car garage,
+  in your pocket." Members choose 4, 8, or 12 driving days a month and get a premium Toyota
+  hybrid delivered clean, fueled, insured, and maintained, then picked up when they are done,
+  with plans from $399/month including insurance, delivery, and maintenance. A 500 Global and
+  URBAN-X portfolio company, Upshift publishes no public developer program or API surface; the
+  member experience runs through its iOS/Android apps and go.upshiftcars.com.
 url: https://raw.githubusercontent.com/api-evangelist/upshiftcars/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Automotive
+- Mobility
+- Car Subscription
+- Car Sharing
+- Transportation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +44,24 @@ maintainers:
 common:
 - type: Website
   url: https://upshiftcars.com
+- type: Pricing
+  url: https://www.upshiftcars.com/subscriptions/
+- type: SignUp
+  url: https://go.upshiftcars.com/users/subscribe/signup_welcome
+- type: Login
+  url: https://go.upshiftcars.com/users/log_in
+- type: Support
+  url: https://www.upshiftcars.com/faq/
+- type: Blog
+  url: https://www.upshiftcars.com/blog/
+- type: PrivacyPolicy
+  url: https://www.upshiftcars.com/privacy-policy/
+- type: LLMsTxt
+  url: llms/upshiftcars-llms.txt
+- type: DomainSecurity
+  url: security/upshiftcars-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
